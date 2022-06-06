@@ -1,5 +1,12 @@
 [
   {
+    "name": "builder-builder",
+    "path": "/builder/builder",
+    "component": "/home/vaishali/content-builder/grapesjs/pages/builder/builder.js",
+    "chunkName": "pages/builder/builder",
+    "_name": "_2715bdb8"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/home/vaishali/content-builder/grapesjs/pages/index.vue",
