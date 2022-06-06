@@ -24,7 +24,19 @@ export default {
         'gjs-preset-webpage': {
           // options
         }
-      }
+      },
+      storageManager: {
+         id: 'gjs-',
+        type: 'local',
+        autosave: true,
+        autoload: true,
+        stepsBeforeSave: 1,
+        storeComponents: false,
+        storeStyles: false,
+        storeHtml: true,
+        storeCss: true,
+        storeAssets: false,    // If autosave enabled, indicates how many changes are necessary before store method is triggered
+      },
     })
     builder.addPanels(editor)
     console.log(editor)

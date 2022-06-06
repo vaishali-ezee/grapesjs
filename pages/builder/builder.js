@@ -278,10 +278,5 @@ export default {
         ],
       })
     },
-    registerCommands (editor) {
-      editor.on('run:export-template:before', () => {
-        console.log('Before export template')
-      })
-    },
   }
   
